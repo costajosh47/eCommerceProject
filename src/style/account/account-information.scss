@@ -76,13 +76,13 @@
 
     &__cancel {
         grid-column: cancel-s/cancel-e;
-        grid-row: buttons-s/buttons/e;
+        grid-row: buttons-s/buttons-e;
     }
 
     &__update-information {
         grid-column: update-s/update-e;
-        transform: translateX(263px) ;
-        grid-row: buttons-s/buttons/e;
+        // transform: translateX(20px) ;
+        grid-row: buttons-s/buttons-e;
     }
 
 }
