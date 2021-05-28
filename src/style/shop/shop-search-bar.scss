@@ -19,7 +19,7 @@
 .search-bar-grid {
     display: grid;
     grid-template-rows: [s] 1fr [e];
-    grid-template-columns: 20px [s] 20px [icon-e] 1fr [e];
+    grid-template-columns: 20px [s] 20px [icon-e] 1fr [e] 50px;
 
     &__icon{
         grid-row: s/e;
@@ -32,7 +32,6 @@
     &__input {
         grid-row: s/e;
         grid-column: 1/e;
-        padding-left: 50px;
-        
+        padding-left: 50px; 
     }
 }
